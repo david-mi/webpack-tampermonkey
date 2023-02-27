@@ -1,0 +1,22 @@
+{
+  "name": "tamper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server",
+    "build": "webpack --watch"
+  },
+  "author": "david-mi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
